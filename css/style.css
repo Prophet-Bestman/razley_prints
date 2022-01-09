@@ -19,6 +19,10 @@
 /* #Primary
 ================================================== */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight:400;
@@ -27,6 +31,14 @@ body{
 	color: #646464;
 	overflow-x: hidden;
 }
+
+
+#about, #porfolio, #services, #products {
+	padding-top: 90px !important;
+}
+
+
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
 	font-family: 'Work Sans', sans-serif;
@@ -146,6 +158,32 @@ body.royal_preloader {
         -ms-animation: rotate 0.8s linear infinite;
          -o-animation: rotate 0.8s linear infinite;
             animation: rotate 0.8s linear infinite;
+}
+
+
+.section-header  h2 {
+	font-size: 48px ;
+	color: #db4c17;
+}
+
+.bg-brand {
+	background-color:  #db4c17;
+}
+.text-brand {
+	color:  #db4c17;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	background-color: #db4c17;	
+	border-radius: 1000px;
+	display: inline-block;
+}
+
+.services-text {
+	font-size: 16px;
+	font-weight: 500;
 }
 
 /* Line Mode */
@@ -1009,8 +1047,8 @@ Mobile style's
 	letter-spacing: 3px;
 	font-size: 11vw;
 	line-height: 0.5;
-	-webkit-text-stroke: 3px #212121;
-	text-stroke: 3px #212121;
+	-webkit-text-stroke: 3px #fff !important;
+	text-stroke: 3px #fff !important;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	color: transparent;
@@ -1598,6 +1636,16 @@ figure.vimeo a img, figure.youtube a img {
 	font-weight: 600;
 }
 
+.about .about-header h2 {
+	font-size: 48px ;
+	color: #db4c17;
+}
+
+.about .vision-text p {
+	text-align: end !important;
+}
+
+
 /* #Portfolio
 ================================================== */
 
@@ -1713,6 +1761,7 @@ figure.vimeo a img, figure.youtube a img {
 	display: block;
 	border: 6px solid var(--color-text);
 	padding: 0.25rem 1.25rem;
+	color: #db4c17;
 }
 
 .box__text-inner--reverse {
@@ -2663,6 +2712,16 @@ a.no-lines:hover{
 	z-index:3;
 } 
 
+.contact-banner {
+	background: url('.././img/razley/Contact.jpg')center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	background-color: #555;
+}
+
+
 .contact-det{
 	position: relative;
 	display: block;
@@ -2890,9 +2949,10 @@ a.no-lines:hover{
 		line-height: 0.4;
 		-webkit-text-stroke: 3px transparent;
 		text-stroke: 3px transparent;
-		-webkit-text-fill-color: #212121;
-		text-fill-color: #212121;
+		-webkit-text-fill-color: #fff;
+		text-fill-color: #fff;
 		color: #212121;
+		z-index: ;
 	}
 }
 
@@ -2969,12 +3029,6 @@ a.no-lines:hover{
 		transform: translateY(0);
 	}
 }
-
-
-
-
-
-
 
 
 
