@@ -25,14 +25,14 @@ const Home = () => {
         <AboutTwo />
         <ServiceTwo />
         <TestimonialsOne />
-        <FaqFeature />
+        {/* <FaqFeature /> */}
         <CallToActionTwo />
-        <TeamOne />
+        {/* <TeamOne /> */}
         <AboutThree />
-        <VideoDesignGuide />
+        {/* <VideoDesignGuide /> */}
         <CallToActionThree />
         <RecentProject />
-        <ClientCarousel />
+        {/* <ClientCarousel /> */}
         <Footer />
       </Layout>
     </MenuContextProvider>

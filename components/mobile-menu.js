@@ -1,6 +1,6 @@
 import React, { useContext, Fragment, useRef } from "react";
 import Link from "next/link";
-import { FooterBottomData, NavLinksData } from "@/data";
+import { Logo, NavLinksData } from "@/data";
 import { MenuContext } from "@/context/menu-context";
 
 const MobileMenu = () => {
@@ -16,7 +16,9 @@ const MobileMenu = () => {
       <div className="mobile-menu__inner">
         <div className="mobile-menu__top">
           <h1 className="mobile-menu__logo">
-            <a href="/">Printify</a>
+            <a href="/">
+              <img width={60} height={60} src={Logo.dark} alt="Razley logo" />
+            </a>
           </h1>
           <a href="#" className="mobile-menu__close" onClick={handleMenuClick}>
             <i className="fa fa-times"></i>
@@ -70,16 +72,16 @@ const MobileMenu = () => {
           </ul>
         </nav>
         <div className="mobile-menu__text">
-          Printify is a premium Template for Digital Agencies, Start Ups, Small
-          Business and a wide range of other agencies.
+          Razley Prints is a premium Printing Agency for Digital Agencies, Start
+          Ups, Small Business and a wide range of other agencies.
         </div>
-        <div className="mobile-menu__socials">
+        {/* <div className="mobile-menu__socials">
           {FooterBottomData.social.map(({ icon, url }, index) => {
             return (
               <a key={index} href={url} className={`${icon} hvr-pulse`}></a>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

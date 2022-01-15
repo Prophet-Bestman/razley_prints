@@ -103,9 +103,31 @@ a:active {
   padding: 18px 69px;
   transition: all 0.4s;
 }
+
+.white-btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  border-radius: 35px;
+  color: #ff4328;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 69px;
+  transition: all 0.4s;
+}
+
+.white-btn:hover {
+  background: #ddd;
+  color: #ff4328;
+  border: 1px #ff4228 solid;
+}
 .thm-btn:hover {
   background: #fff;
   color: #ff4328;
+  border: 1px #ff4228 solid;
 }
 .thm-btn.yellow-bg {
   background: #fec931;
@@ -113,6 +135,7 @@ a:active {
 }
 .thm-btn.yellow-bg:hover {
   background: #ff4328;
+
   color: #fff;
 }
 
@@ -233,13 +256,12 @@ body.active-preloader-ovh {
   max-width: 100%;
   background: transparent;
   padding: 0 40px;
-  position: relative;
+  /* position: relative; */
 }
 .header-navigation .thm-container .navbar-header {
-  position: absolute;
-  top: 50%;
-  left: 40px;
-  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .header-navigation .thm-container .navbar-brand {
   height: auto;
@@ -290,7 +312,7 @@ body.active-preloader-ovh {
 }
 .header-navigation ul.navigation-box > li {
   position: relative;
-  padding: 48.5px 0;
+  padding: 18px 0;
   display: inline-block;
 }
 .header-navigation ul.navigation-box > li:before {
@@ -438,14 +460,6 @@ body.active-preloader-ovh {
 }
 .header-navigation.stricky-fixed .thm-container {
   box-shadow: none;
-}
-.header-navigation.stricky-fixed .thm-container .navbar-brand {
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-.header-navigation.stricky-fixed ul.navigation-box > li {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 /**************************
@@ -727,6 +741,8 @@ body.active-preloader-ovh {
   right: 0;
   bottom: 0;
   background-repeat: no-repeat;
+  background-color: #333;
+  background-blend-mode: overlay;
   background-position: center center;
   background-size: cover;
   -webkit-transform: scale(1);
@@ -918,6 +934,17 @@ body.active-preloader-ovh {
 }
 .welcome-section .welcome-content a.thm-btn {
   margin-top: 55px;
+}
+
+.welcome-section .welcome-img-box {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-section .welcome-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /**************************
@@ -1335,8 +1362,8 @@ body.active-preloader-ovh {
   width: 59px;
   height: 59px;
   border-radius: 50%;
-  color: #fff;
-  font-size: 18px;
+  color: #bc2a8d;
+  font-size: 32px;
   line-height: 59px;
   text-align: center;
   line-height: 59px;
@@ -1381,9 +1408,13 @@ body.active-preloader-ovh {
 .recent-projects .single-recent-project .img-box {
   position: relative;
   overflow: hidden;
+  width: 370px;
+  height: 395px;
 }
 .recent-projects .single-recent-project .img-box > img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .recent-projects .single-recent-project .img-box:before {
   content: "";
@@ -1597,7 +1628,7 @@ body.active-preloader-ovh {
   position: relative;
 }
 .call-to-action-one .overlay {
-  background: #ff4328 url(../img/cta-bg-1-1.jpg) center center no-repeat fixed;
+  background: #ff4328 url(../img/raz/mock.jpeg) center center no-repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1617,8 +1648,7 @@ body.active-preloader-ovh {
   opacity: 0.9;
 }
 .call-to-action-one .inner-wrapper {
-  background: transparent url(../img/cta-bg-1-2.png) right center no-repeat
-    fixed;
+  background: transparent url(../img/raz/mock.jpeg) right center no-repeat fixed;
   position: relative;
   z-index: 99;
   padding-top: 115px;
@@ -1715,7 +1745,7 @@ body.active-preloader-ovh {
   margin-bottom: 60px;
 }
 .testi-carousel-wrapper .overlay {
-  background: #212121 url(../img/testi-bg-1-1.jpg) center center no-repeat fixed;
+  background: #212121 url(../img/raz/Hero.jpg) center center no-repeat fixed;
   background-size: cover;
   position: absolute;
   top: 60px;
@@ -1791,11 +1821,19 @@ body.active-preloader-ovh {
 }
 .testi-carousel-wrapper .thm-container .single-testimonials .img-box {
   width: 270px;
+  height: 300px;
   position: absolute;
   top: -60px;
   left: 0;
   z-index: 99;
 }
+
+.testi-carousel-wrapper .thm-container .single-testimonials .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .testi-carousel-wrapper .thm-container .single-testimonials .text-box {
   padding-left: 328px;
   padding-top: 108px;
@@ -2064,9 +2102,12 @@ body.active-preloader-ovh {
   position: relative;
 }
 .service-style-one img.background-right {
+  width: 40%;
+  height: 100%;
   position: absolute;
   top: 0;
   right: 0;
+  object-fit: cover;
 }
 .service-style-one .service-content {
   padding-right: 60px;
@@ -4016,6 +4057,7 @@ body.active-preloader-ovh {
 @media (max-width: 1199px) {
   .header .navbar-header {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
   }
@@ -4025,6 +4067,7 @@ body.active-preloader-ovh {
   font-size: 18px;
   color: #212121;
   margin-top: 10px;
+  margin-left: auto !important;
   display: flex;
   cursor: pointer;
 }
@@ -4033,4 +4076,11 @@ body.active-preloader-ovh {
   .mobile-menu__toggler {
     display: none;
   }
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }

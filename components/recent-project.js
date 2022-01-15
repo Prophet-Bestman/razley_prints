@@ -11,8 +11,9 @@ const RecentProject = () => {
           <span>Work showcase</span>
           <h3>Recent Projects</h3>
           <p>
-            There are many variations of passages of lorem Ipsum available, but{" "}
-            <br /> the majority have suffered alteration in some form.
+            It is known that the class of customers a brand or business gets is
+            a pointer to the quality it delivers. Below is a breif showcase of
+            our recent projects
           </p>
         </div>
         <Row>

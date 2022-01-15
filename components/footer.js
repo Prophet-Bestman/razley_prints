@@ -6,7 +6,7 @@ import {
   FooterLinksData,
   FooterPostsData,
   FooterContactData,
-  FooterBottomData
+  FooterBottomData,
 } from "@/data";
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="thm-container">
           <Row>
-            <Col lg={4}>
+            <Col lg={6}>
               <div className="footer-widget about-widget">
                 <div className="title">
                   <h3>{FooterAboutData.title}</h3>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </form>
               </div>
             </Col>
-            <Col lg={2}>
+            <Col lg={3}>
               <div className="footer-widget links-widget explore">
                 <div className="title">
                   <h3>{FooterLinksData.title}</h3>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg={3}>
+            {/* <Col lg={3}>
               <div className="footer-widget post-widget services">
                 <div className="title">
                   <h3>{FooterPostsData.title}</h3>
@@ -70,7 +70,7 @@ const Footer = () => {
                   })}
                 </div>
               </div>
-            </Col>
+            </Col> */}
             <Col lg={3}>
               <div className="footer-widget contact-widget">
                 <div className="title">
@@ -92,14 +92,18 @@ const Footer = () => {
         <div className="thm-container clearfix">
           <div className="float-left copy-text">
             <p>
-              &copy; Copyright {new Date().getFullYear()} Created by{" "}
-              <a href="#">Layerdrops Team</a>
+              &copy; Copyright {new Date().getFullYear()} Branded by{" "}
+              <a href="#">LOGNETICS</a>
             </p>
           </div>
           <div className="social-box float-right">
             {FooterBottomData.social.map(({ icon, url }, index) => {
               return (
-                <a key={index} href={url} className={`${icon} hvr-pulse`}></a>
+                <a
+                  key={index}
+                  href={url}
+                  className={`${icon} bg-white text-red hvr-pulse`}
+                ></a>
               );
             })}
           </div>

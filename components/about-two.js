@@ -23,7 +23,7 @@ const AboutTwo = () => {
               </div>
               <p>{content}</p>
               <Link href={url}>
-                <a className="thm-btn yellow-bg">Learn More</a>
+                <a className="thm-btn thm-bg">Learn More</a>
               </Link>
             </div>
           </Col>

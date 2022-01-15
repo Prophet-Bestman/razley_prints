@@ -36,55 +36,37 @@ const HeaderOne = () => {
             : " stricky slideIn animated"
         }`}
       >
-        <div className="thm-container clearfix">
-          <div className="navbar-header">
+        <div className="thm-container d-flex justify-space-between align-items-center">
+          <div className="nav-header ">
             <Link href="/">
               <a className="navbar-brand">
-                <img src={Logo.dark} alt="Awesome Image" />
+                <img width={60} height={60} src={Logo.dark} alt="Razley logo" />
               </a>
             </Link>
-            <span className="mobile-menu__toggler" onClick={handleMenuClick}>
+            <span
+              className="mobile-menu__toggler ml-auto"
+              onClick={handleMenuClick}
+            >
               <i className="fa fa-bars"></i>
             </span>
-          </div>
-
-          <div
-            className="collapse show navbar-collapse main-navigation mainmenu "
-            id="main-nav-bar"
-          >
-            <ul className="nav navbar-nav navigation-box">
-              {NavLinksData.map((links, index) => {
-                return (
-                  <li
-                    key={index}
-                    className={router.pathname == links.url ? "active" : ""}
-                  >
-                    <Link href={links.url}>
-                      <a>{links.name}</a>
-                    </Link>
-                    {undefined !== links.subItems ? (
-                      <ul className="sub-menu">
-                        {links.subItems.map((subLinks, index) => (
-                          <li key={index}>
-                            <Link href={subLinks.url}>
-                              <a>{subLinks.name}</a>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : null}
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          <div className="right-side-box">
-            <div className="social">
-              {FooterBottomData.social.map(({ icon, url }, index) => {
-                return (
-                  <a key={index} href={url} className={`${icon} hvr-pulse`}></a>
-                );
-              })}
+            <div
+              className="collapse show navbar-collapse main-navigation mainmenu"
+              id="main-nav-bar"
+            >
+              <ul className="nav navbar-nav navigation-box">
+                {NavLinksData.map((links, index) => {
+                  return (
+                    <li
+                      key={index}
+                      className={router.pathname == links.url ? "active" : ""}
+                    >
+                      <Link href={links.url}>
+                        <a>{links.name}</a>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </div>
         </div>

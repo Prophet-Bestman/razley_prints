@@ -7,10 +7,10 @@ const ServiceTwo = () => {
         <div className="sec-title text-center">
           <span>Our features</span>
           <h3>What We Do</h3>
-          <p>
-            There are many variations of passages of lorem Ipsum available, but{" "}
-            <br /> the majority have suffered alteration in some form.
-          </p>
+          <p></p>
+          To deliver creative Print & Marketing Solutions that make our clients
+          successful. <br /> We keep our promises, provide creative solutions,
+          and achieve our client’s goals
         </div>
         <div className="row">
           <div className="col-lg-6 col-md-12">

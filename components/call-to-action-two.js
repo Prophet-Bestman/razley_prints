@@ -21,7 +21,7 @@ const CallToActionTwo = () => {
                     </li>
                   ))}
                 </ul>
-                <a href={button.url} className="thm-btn yellow-bg">
+                <a href={button.url} className="white-btn yellow-bg">
                   {button.label}
                 </a>
               </div>

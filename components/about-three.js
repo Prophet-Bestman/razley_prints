@@ -5,14 +5,8 @@ import Link from "next/link";
 import { Col, Row } from "react-bootstrap";
 
 const AboutThree = () => {
-  const {
-    backgroundImage,
-    sectionContent,
-    content,
-    button,
-    phone,
-    posts
-  } = AboutThreeData;
+  const { backgroundImage, sectionContent, content, button, phone, posts } =
+    AboutThreeData;
   return (
     <section className="service-style-one sec-pad">
       <img
@@ -28,7 +22,7 @@ const AboutThree = () => {
               <p>{content}</p>
               <div className="btn-box">
                 <Link href={button.url}>
-                  <a className="thm-btn yellow-bg">{button.label}</a>
+                  <a className="thm-btn my-4">{button.label}</a>
                 </Link>
                 <div className="phone-btn">
                   <i className="fas fa-phone"></i>

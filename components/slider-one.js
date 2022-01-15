@@ -12,11 +12,11 @@ const SliderOne = () => {
     effect: "fade",
     navigation: {
       nextEl: "#main-slider-next",
-      prevEl: "#main-slider-prev"
+      prevEl: "#main-slider-prev",
     },
     autoplay: {
-      delay: 5000
-    }
+      delay: 5000,
+    },
   };
   return (
     <section className="main-slider">
@@ -32,11 +32,6 @@ const SliderOne = () => {
                 <Col lg={12} className="text-center">
                   <p className="main-slider__subtext">{subText}</p>
                   <h3 className="main-slider__title">{title}</h3>
-                  <Link href={button.url}>
-                    <a className={`thm-btn`}>
-                      <span>{button.label}</span>
-                    </a>
-                  </Link>
                 </Col>
               </Row>
             </div>
