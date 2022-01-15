@@ -533,7 +533,7 @@ export const ServiceOneData = [
 ];
 
 import projectImage1 from "@/images/raz/coza.JPG";
-import projectImage2 from "@/images/raz/mayorkun.JPG";
+import projectImage2 from "@/images/raz/mayorkun.jpg";
 import projectImage3 from "@/images/raz/hair_flip.JPG";
 import projectImage4 from "@/images/project-1-4.jpg";
 import projectImage5 from "@/images/project-1-5.jpg";
