@@ -1,4 +1,4 @@
-import logoDark from "@/images/logo.png";
+let logoDark = "/img/logo.png";
 export const Logo = {
   dark: logoDark,
 };
@@ -11,12 +11,12 @@ export const NavLinksData = [
   {
     name: "About",
     url: "/about",
-    url: "/",
+    // url: "/",
   },
   {
     name: "Services",
     url: "/services",
-    url: "/",
+    // url: "/",
   },
   // {
   //   name: "Pages",
@@ -28,13 +28,13 @@ export const NavLinksData = [
   // },
   {
     name: "Contact",
-    url: "/",
+    // url: "/",
     url: "/contact",
   },
 ];
 
-import sliderOne1 from "@/images/raz/Hero.jpg";
-import sliderOne2 from "@/images//raz/Hero.jpg";
+let sliderOne1 = "/img/raz/Hero.jpg";
+let sliderOne2 = "/img/raz/Hero.jpg";
 
 export const SliderOneData = [
   {
@@ -58,7 +58,7 @@ export const SliderOneData = [
   },
 ];
 
-import sliderTwo1 from "@/images/banner-featured-1-1.png";
+let sliderTwo1 = "/img/banner-featured-1-1.png";
 
 export const SliderTwoData = {
   image: sliderTwo1,
@@ -82,7 +82,7 @@ export const SliderTwoData = {
   ],
 };
 
-import video1 from "@/images/video-box-1-1.jpg";
+let video1 = "/img/video-box-1-1.jpg";
 export const VideoData = {
   image: video1,
   ID: "mUhcFs6v-Xw",
@@ -107,7 +107,7 @@ export const CallToActionData = {
   },
 };
 
-import callToActionTwo1 from "@/images/free-sample-1-2.jpg";
+let callToActionTwo1 = "/img/free-sample-1-2.jpg";
 
 export const CallToActionTwoData = {
   sectionContent: {
@@ -136,7 +136,7 @@ export const CallToActionThreeData = {
   },
 };
 
-import aboutThree1 from "@/images/raz/rollup.jpg";
+let aboutThree1 = "/img/raz/rollup.jpg";
 
 export const AboutThreeData = {
   backgroundImage: aboutThree1,
@@ -146,7 +146,7 @@ export const AboutThreeData = {
     textAlignment: "left",
   },
   content:
-    "Razley Print has an extensive range of printed products to choose from. But what makes us different from some of our printing competitors? Well the number 1 difference is that we are a print press that prints inhouse. This allows for full quality control, faster turnarounds and at a cost effective rate. Please see below some of the printed products that Razley Prints Limited manufacture.",
+    "Razley Print has an extensive range of printed products to choose =. But what makes us different = some of our printing competitors? Well the number 1 difference is that we are a print press that prints inhouse. This allows for full quality control, faster turnarounds and at a cost effective rate. Please see below some of the printed products that Razley Prints Limited manufacture.",
   button: {
     label: "Learn More",
     url: "/about",
@@ -176,7 +176,7 @@ export const AboutThreeData = {
   ],
 };
 
-import aboutTwo1 from "@/images/raz/about.jpg";
+let aboutTwo1 = "/img/raz/about.jpg";
 
 export const AboutTwoData = {
   sectionContent: {
@@ -220,27 +220,27 @@ export const FaqData = {
   ],
 };
 
-import featureCarousel1 from "@/images/we-belive-in-1-1.jpg";
-import featureCarousel2 from "@/images/we-belive-in-1-2.jpg";
+let featureCarousel1 = "/img/we-belive-in-1-1.jpg";
+let featureCarousel2 = "/img/we-belive-in-1-2.jpg";
 
 export const FeatureCarouselData = [
   {
     image: featureCarousel1,
     title: "We believe in the \n power of great \n design",
-    text: "Design helps us stand out: from the clothes we wear, to the homes we live in, to the business cards we use. Design tells a story about \n us and what we stand for.",
+    text: "Design helps us stand out: = the clothes we wear, to the homes we live in, to the business cards we use. Design tells a story about \n us and what we stand for.",
     url: "/services",
   },
   {
     image: featureCarousel2,
     title: "We believe in the \n power of great \n design",
-    text: "Design helps us stand out: from the clothes we wear, to the homes we live in, to the business cards we use. Design tells a story about \n us and what we stand for.",
+    text: "Design helps us stand out: = the clothes we wear, to the homes we live in, to the business cards we use. Design tells a story about \n us and what we stand for.",
     url: "/services",
   },
 ];
 
-import team1 from "@/images/team-1-1.png";
-import team2 from "@/images/team-1-2.png";
-import team3 from "@/images/team-1-3.png";
+let team1 = "/img/team-1-1.png";
+let team2 = "/img/team-1-2.png";
+let team3 = "/img/team-1-3.png";
 
 export const TeamOneData = {
   sectionContent: {
@@ -274,8 +274,8 @@ export const TeamOneData = {
   ],
 };
 
-import testimonials1 from "@/images/raz/Light_Ihesiulo.jpg";
-import testimonials2 from "@/images/raz/prophet.jpeg";
+let testimonials1 = "/img/raz/Light_Ihesiulo.jpg";
+let testimonials2 = "/img/raz/prophet.jpeg";
 
 export const TestimonialsOneData = [
   {
@@ -292,9 +292,9 @@ export const TestimonialsOneData = [
   },
 ];
 
-import aboutOne1 from "@/images/about-1-1.jpg";
-import aboutOne2 from "@/images/about-1-2.jpg";
-import aboutOne3 from "@/images/about-1-3.jpg";
+let aboutOne1 = "/img/about-1-1.jpg";
+let aboutOne2 = "/img/about-1-2.jpg";
+let aboutOne3 = "/img/about-1-3.jpg";
 
 export const AboutOneData = [
   {
@@ -317,9 +317,9 @@ export const AboutOneData = [
   },
 ];
 
-import serviceDetails1 from "@/images/service-details-1-1.jpg";
-import serviceDetails2 from "@/images/service-details-1-2.jpg";
-import serviceDetails3 from "@/images/service-details-1-3.jpg";
+let serviceDetails1 = "/img/service-details-1-1.jpg";
+let serviceDetails2 = "/img/service-details-1-2.jpg";
+let serviceDetails3 = "/img/service-details-1-3.jpg";
 
 export const ServiceDetailsData = [
   {
@@ -430,10 +430,10 @@ export const FeatureTwoData = {
   ],
 };
 
-import feature1 from "@/images/what-we-do-3-1.jpg";
-import feature2 from "@/images/what-we-do-3-1-1.jpg";
-import feature3 from "@/images/what-we-do-3-1-2.jpg";
-import feature4 from "@/images/what-we-do-3-1-3.jpg";
+let feature1 = "/img/what-we-do-3-1.jpg";
+let feature2 = "/img/what-we-do-3-1-1.jpg";
+let feature3 = "/img/what-we-do-3-1-2.jpg";
+let feature4 = "/img/what-we-do-3-1-3.jpg";
 
 export const FeatureOneData = {
   sectionContent: {
@@ -474,12 +474,12 @@ export const FeatureOneData = {
   ],
 };
 
-import serviceImage1 from "@/images/service-1-1.jpg";
-import serviceImage2 from "@/images/service-1-2.jpg";
-import serviceImage3 from "@/images/service-1-3.jpg";
-import serviceImage4 from "@/images/service-1-4.jpg";
-import serviceImage5 from "@/images/service-1-5.jpg";
-import serviceImage6 from "@/images/service-1-6.jpg";
+let serviceImage1 = "/img/service-1-1.jpg";
+let serviceImage2 = "/img/service-1-2.jpg";
+let serviceImage3 = "/img/service-1-3.jpg";
+let serviceImage4 = "/img/service-1-4.jpg";
+let serviceImage5 = "/img/service-1-5.jpg";
+let serviceImage6 = "/img/service-1-6.jpg";
 
 export const ServiceOneData = [
   {
@@ -532,12 +532,12 @@ export const ServiceOneData = [
   },
 ];
 
-import projectImage1 from "@/images/raz/coza.jpg";
-import projectImage2 from "@/images/raz/mayorkun.jpg";
-import projectImage3 from "@/images/raz/hair_flip.jpg";
-import projectImage4 from "@/images/project-1-4.jpg";
-import projectImage5 from "@/images/project-1-5.jpg";
-import projectImage6 from "@/images/project-1-6.jpg";
+let projectImage1 = "/img/raz/coza.jpg";
+let projectImage2 = "/img/raz/mayorkun.jpg";
+let projectImage3 = "/img/raz/hair_flip.jpg";
+let projectImage4 = "/img/project-1-4.jpg";
+let projectImage5 = "/img/project-1-5.jpg";
+let projectImage6 = "/img/project-1-6.jpg";
 export const ProjectOneData = [
   {
     image: projectImage1,
@@ -577,14 +577,14 @@ export const ProjectOneData = [
   },
 ];
 
-import errorImage from "@/images/404-text.png";
+let errorImage = "/img/404-text.png";
 export const errorData = {
   title: "Oops! This page is not available",
   text: "Please go back to home and try to find out once again.",
   image: errorImage,
 };
 
-import progressImage1 from "@/images/what-we-do-2-1.jpg";
+let progressImage1 = "/img/what-we-do-2-1.jpg";
 
 export const ProgressData = {
   sectionImage: progressImage1,
@@ -670,11 +670,11 @@ export const PricingData = {
   ],
 };
 
-import clientImage1 from "@/images/brand-1-1.png";
-import clientImage2 from "@/images/brand-1-2.png";
-import clientImage3 from "@/images/brand-1-3.png";
-import clientImage4 from "@/images/brand-1-4.png";
-import clientImage5 from "@/images/brand-1-5.png";
+let clientImage1 = "/img/brand-1-1.png";
+let clientImage2 = "/img/brand-1-2.png";
+let clientImage3 = "/img/brand-1-3.png";
+let clientImage4 = "/img/brand-1-4.png";
+let clientImage5 = "/img/brand-1-5.png";
 
 export const ClientCarouselData = [
   {
@@ -694,7 +694,7 @@ export const ClientCarouselData = [
   },
 ];
 
-import sidebarImage from "@/images/widget-1-1.png";
+let sidebarImage = "/img/widget-1-1.png";
 
 export const sidebarTextWidgetData = {
   text: "Lorem Ipsum is simply dummy text of the rinting and typesetting industry has been the industry.",
@@ -702,12 +702,12 @@ export const sidebarTextWidgetData = {
   image: sidebarImage,
 };
 
-import blogImage1 from "@/images/blog-1-1.jpg";
-import blogImage2 from "@/images/blog-1-2.jpg";
-import blogImage3 from "@/images/blog-1-3.jpg";
-import blogImage4 from "@/images/blog-1-4.jpg";
-import blogImage5 from "@/images/blog-1-5.jpg";
-import blogImage6 from "@/images/blog-1-6.jpg";
+let blogImage1 = "/img/blog-1-1.jpg";
+let blogImage2 = "/img/blog-1-2.jpg";
+let blogImage3 = "/img/blog-1-3.jpg";
+let blogImage4 = "/img/blog-1-4.jpg";
+let blogImage5 = "/img/blog-1-5.jpg";
+let blogImage6 = "/img/blog-1-6.jpg";
 
 export const BlogPostsData = [
   {
@@ -766,7 +766,7 @@ export const BlogPostsData = [
   },
 ];
 
-import blogDetailsImage1 from "@/images/blog-details-1-1.jpg";
+let blogDetailsImage1 = "/img/blog-details-1-1.jpg";
 
 export const BlogDetailsData = {
   title: "What final touches can i add",
@@ -778,8 +778,8 @@ export const BlogDetailsData = {
   url: "/blog-details",
 };
 
-import commentImage1 from "@/images/comment-1-1.png";
-import commentImage2 from "@/images/comment-1-2.png";
+let commentImage1 = "/img/comment-1-1.png";
+let commentImage2 = "/img/comment-1-2.png";
 
 export const BlogCommentData = {
   sectionContent: {
