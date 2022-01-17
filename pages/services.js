@@ -18,7 +18,6 @@ const Services = () => {
         <ServiceTabOne />
         <FeaturedTwo />
         <FeatureOne />
-        <ClientCarousel />
         <Footer />
       </Layout>
     </MenuContextProvider>

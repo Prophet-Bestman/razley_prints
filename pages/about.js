@@ -21,8 +21,8 @@ const AboutPage = () => {
         <TestimonialsOne />
         <TeamOne />
         <ProgressOne />
-        <FaqFeature />
-        <ClientCarousel />
+        {/* <FaqFeature /> */}
+        {/* <ClientCarousel /> */}
         <Footer />
       </Layout>
     </MenuContextProvider>

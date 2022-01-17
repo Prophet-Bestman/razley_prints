@@ -33,13 +33,13 @@ const ProgressOne = () => {
                           styles={buildStyles({
                             textColor: "#2984C4",
                             pathColor: "#2984C4",
-                            trailColor: "rgba(244, 245, 249, 1)"
+                            trailColor: "rgba(244, 245, 249, 1)",
                           })}
                         />
                         <div className="text-box">
                           <div className="inner">
                             <div className="content">
-                              <p>${price}</p>
+                              <p>{price}</p>
                             </div>
                           </div>
                         </div>

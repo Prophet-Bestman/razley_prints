@@ -238,40 +238,22 @@ export const FeatureCarouselData = [
   },
 ];
 
-let team1 = "/img/team-1-1.png";
-let team2 = "/img/team-1-2.png";
-let team3 = "/img/team-1-3.png";
+let team1 = "/img/raz/raz.jpeg";
 
 export const TeamOneData = {
   sectionContent: {
-    title: "Meet the Team",
+    title: "Meet the CEO",
     subText: "The leadership",
     content:
-      "There are many variations of passages of lorem Ipsum available, but \nthe majority have suffered alteration in some form.",
+      "Its known that any ship of great impact is captained by a man of capability. \n This is the case with Razley Prints. Meet the exeptional person of Mr Razley",
   },
-  posts: [
-    {
-      name: "Harry Woods",
-      designation: "Chief marketing officer",
-      image: team1,
-      content:
-        "Jessica leads our customer team and holds guardianship of our brand. \n \n An award-winning marketer, Jesscia launched our Boston office, taking a huge step forward in making PRINTIFY a global brand. She’s responsible for our brand strategy and making sure we stay close to our customers. Jessica’s two big passions are the ocean and music. She has a formidable record library – with her purple vinyl of Purple Rain the jewel in her collection.",
-    },
-    {
-      name: "Myrtie Lyons",
-      designation: "Chief marketing officer",
-      image: team2,
-      content:
-        "Jessica leads our customer team and holds guardianship of our brand. \n \n An award-winning marketer, Jesscia launched our Boston office, taking a huge step forward in making PRINTIFY a global brand. She’s responsible for our brand strategy and making sure we stay close to our customers. Jessica’s two big passions are the ocean and music. She has a formidable record library – with her purple vinyl of Purple Rain the jewel in her collection.",
-    },
-    {
-      name: "Lida Doyle",
-      designation: "Chief marketing officer",
-      image: team3,
-      content:
-        "Jessica leads our customer team and holds guardianship of our brand. \n \n An award-winning marketer, Jesscia launched our Boston office, taking a huge step forward in making PRINTIFY a global brand. She’s responsible for our brand strategy and making sure we stay close to our customers. Jessica’s two big passions are the ocean and music. She has a formidable record library – with her purple vinyl of Purple Rain the jewel in her collection.",
-    },
-  ],
+  CEO_details: {
+    name: "Mr Razley",
+    designation: "Chief Executive officer",
+    image: team1,
+    content:
+      "Mr Razley is the founde of Razley Prints Ltd. \n \n Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ipsum, quidem repellendus accusamus assumenda perspiciatis amet, veritatis laborum quam vero incidunt magni consequatur. Eius ab tempore ratione at, officiis accusantium!.",
+  },
 };
 
 let testimonials1 = "/img/raz/Light_Ihesiulo.jpg";
@@ -292,26 +274,26 @@ export const TestimonialsOneData = [
   },
 ];
 
-let aboutOne1 = "/img/about-1-1.jpg";
-let aboutOne2 = "/img/about-1-2.jpg";
-let aboutOne3 = "/img/about-1-3.jpg";
+let aboutOne1 = "/img/raz/Hero.jpg";
+let aboutOne2 = "/img/raz/vision.jpg";
+let aboutOne3 = "/img/raz/mission.jpg";
 
 export const AboutOneData = [
   {
     title: "About Company",
-    text: "Praesent dapibus eleifend augue eget ipsum sollicitudin velit malesuada eu liquam bland diam ac venenatis.",
+    text: "Razley Prints Limited is a premium printing brand with the simple and clear aim of providing a high quality printing service. \n Our unique arrangement of printing presses enables us to manage client’s printing needs. From business cards, with comp slips, letterheads and presentation folders through to full colour marketing materials in the most efficient way, and always, with a primary focus on quality",
     image: aboutOne1,
     url: "/services",
   },
   {
-    title: "Our Promises",
-    text: "Praesent dapibus eleifend augue eget ipsum sollicitudin velit malesuada eu liquam bland diam ac venenatis.",
+    title: "Our Vision",
+    text: "To deliver creative Print & Marketing Solutions that make our clients successful. We keep our promises, provide creative solutions, and achieve our client’s goals.",
     image: aboutOne2,
     url: "/contact",
   },
   {
-    title: "How We Work",
-    text: "Praesent dapibus eleifend augue eget ipsum sollicitudin velit malesuada eu liquam bland diam ac venenatis.",
+    title: "Mission",
+    text: "To Serve as a Leading Light among our Peers, rendering World Class print and branding Services that will provide Quality and effective delivery of projects from both Home and Abroad.",
     image: aboutOne3,
     url: "/pricing",
   },
@@ -530,6 +512,102 @@ export const ServiceOneData = [
     text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
     url: "/service-details",
   },
+  {
+    image: serviceImage1,
+    title: "Business Cards",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage2,
+    title: "Postcards",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage3,
+    title: "Stickers and Labels",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage4,
+    title: "Flyers",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage5,
+    title: "Envelopes",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage6,
+    title: "Greeting Cards",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage1,
+    title: "Business Cards",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage2,
+    title: "Postcards",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage3,
+    title: "Stickers and Labels",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage4,
+    title: "Flyers",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage5,
+    title: "Envelopes",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage6,
+    title: "Greeting Cards",
+    count: 50,
+    price: 19.99,
+    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    url: "/service-details",
+  },
 ];
 
 let projectImage1 = "/img/raz/coza.jpg";
@@ -589,21 +667,20 @@ let progressImage1 = "/img/what-we-do-2-1.jpg";
 export const ProgressData = {
   sectionImage: progressImage1,
   sectionContent: {
-    title: "You’ll get a \n perfect fit for \n your business.",
+    title: "We give you a \n perfect fit for \n your business.",
     subText: "What we do",
-    content:
-      "Handing out a business card is often the first impression people take of your business, so you need to get it right. Using your own photography or artwork to create custom business cards can help, and PRINTIFY makes the process easy with our simple online tools and templates.",
+    content: "",
   },
   posts: [
     {
-      title: "Flyer \n Printing",
-      price: "8.99",
-      percentCount: "90",
+      title: "Excellence",
+      price: "100%",
+      percentCount: "100",
     },
     {
-      title: "Sticker \n Printing",
-      price: "9.99",
-      percentCount: "70",
+      title: "Customer \n Satisfaction",
+      price: "100%",
+      percentCount: "100",
     },
   ],
 };

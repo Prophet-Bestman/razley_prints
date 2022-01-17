@@ -15,36 +15,42 @@ const TestimonialsOne = () => {
     pagination: {
       el: "#testimonials-carousel-pagination",
       type: "bullets",
-      clickable: true
+      clickable: true,
     },
     autoplay: {
-      delay: 5000
+      delay: 5000,
     },
     breakpoints: {
       0: {
         spaceBetween: 0,
         slidesPerView: 1,
-        slidesPerGroup: 1
-      }
-    }
+        slidesPerGroup: 1,
+      },
+    },
   };
   return (
-    <section className="testi-carousel-wrapper">
-      <div className="overlay"></div>
-      <div className="thm-container">
-        <Swiper className="testi-carousel" {...carouselOptions}>
-          {TestimonialsOneData.map((post, index) => (
-            <SwiperSlide key={index}>
-              <TestimonialsCard data={post} />
-            </SwiperSlide>
-          ))}
-          <div
-            className="swiper-pagination"
-            id="testimonials-carousel-pagination"
-          ></div>
-        </Swiper>
+    <>
+      <div className="sec-title text-center">
+        <span>What Our Clients Say</span>
+        <h3>Testimonials</h3>
       </div>
-    </section>
+      <section className="testi-carousel-wrapper">
+        <div className="overlay"></div>
+        <div className="thm-container">
+          <Swiper className="testi-carousel" {...carouselOptions}>
+            {TestimonialsOneData.map((post, index) => (
+              <SwiperSlide key={index}>
+                <TestimonialsCard data={post} />
+              </SwiperSlide>
+            ))}
+            <div
+              className="swiper-pagination"
+              id="testimonials-carousel-pagination"
+            ></div>
+          </Swiper>
+        </div>
+      </section>
+    </>
   );
 };
 

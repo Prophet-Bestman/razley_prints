@@ -25,7 +25,7 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Head>
-        <title>{PageTitle} - Printify - Printing company NextJS Template</title>
+        <title>{PageTitle} - Razley Prints</title>
       </Head>
       <div id="wrapper">{children}</div>
 

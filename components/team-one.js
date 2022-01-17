@@ -14,20 +14,20 @@ const TeamOne = () => {
     slidesPerView: 1,
     navigation: {
       nextEl: "#team-slider-next",
-      prevEl: "#team-slider-prev"
+      prevEl: "#team-slider-prev",
     },
     autoplay: {
-      delay: 5000
+      delay: 5000,
     },
     breakpoints: {
       0: {
         spaceBetween: 0,
         slidesPerView: 1,
-        slidesPerGroup: 1
-      }
-    }
+        slidesPerGroup: 1,
+      },
+    },
   };
-  const { sectionContent, posts } = TeamOneData;
+  const { sectionContent, CEO_details } = TeamOneData;
   return (
     <section className="team-section sec-pad">
       <div className="thm-container">
@@ -36,21 +36,7 @@ const TeamOne = () => {
           <h3>{sectionContent.title}</h3>
           <p>{sectionContent.content}</p>
         </div>
-        <Swiper className="team-carousel" {...carouselOptions}>
-          {posts.map((post, index) => (
-            <SwiperSlide key={index}>
-              <TeamCard data={post} />
-            </SwiperSlide>
-          ))}
-          <div className="swiper-carousel-nav">
-            <div className="swiper-button-prev" id="team-slider-prev">
-              <i className="fa fa-angle-left"></i>
-            </div>
-            <div className="swiper-button-next" id="team-slider-next">
-              <i className="fa fa-angle-right"></i>
-            </div>
-          </div>
-        </Swiper>
+        <TeamCard data={CEO_details} />
       </div>
     </section>
   );

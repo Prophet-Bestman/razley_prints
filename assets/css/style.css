@@ -1649,11 +1649,13 @@ body.active-preloader-ovh {
 }
 .call-to-action-one .inner-wrapper {
   background: transparent url(../img/raz/mock.jpeg) right center no-repeat fixed;
+  background-blend-mode: overlay;
   position: relative;
   z-index: 99;
   padding-top: 115px;
   padding-bottom: 120px;
 }
+
 .call-to-action-one .thm-container {
   position: relative;
   z-index: 9;
@@ -2055,12 +2057,19 @@ body.active-preloader-ovh {
   background: #f5f6fa;
 }
 .team-section .single-team-carousel .inner .img-box {
-  position: absolute;
-  top: -60px;
-  left: 0;
+  width: 380px;
+  height: 200px;
 }
+
+.team-section .single-team-carousel .inner .img-box img {
+  width: 380px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
 .team-section .single-team-carousel .inner .team-content {
-  padding-left: 470px;
+  /* padding-left: 470px; */
   padding-top: 55px;
   padding-bottom: 80px;
   padding-right: 67px;
@@ -2280,13 +2289,16 @@ body.active-preloader-ovh {
   padding-top: 120px;
 }
 .service-style-two img.background-right {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
   position: absolute;
   top: 0;
   right: 0;
   z-index: 99;
 }
 .service-style-two .overlay {
-  background: #ff4328 url(../img/cta-bg-1-1.jpg) center center no-repeat fixed;
+  background: #ff4328 url(../img/raz/mock13.jpeg) center center no-repeat fixed;
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -3258,6 +3270,17 @@ body.active-preloader-ovh {
 .about-section .single-about .text-box a.read-more:hover {
   background: #fff;
   color: #ff4328;
+}
+
+.about-section .single-about .img-box {
+  width: 100%;
+  height: 350px;
+}
+
+.about-section .single-about .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /**************************
