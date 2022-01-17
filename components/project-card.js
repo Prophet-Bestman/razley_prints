@@ -9,11 +9,11 @@ const ProjectCard = ({ data }) => {
         <img src={image} alt="Awesome Image" />
       </div>
       <div className="text-box">
-        <Link href={url}>
+        {/* <Link href={url}>
           <a className="more">
             <i className="fas fa-plus"></i>
           </a>
-        </Link>
+        </Link> */}
         <div className="inner hvr-bounce-to-bottom">
           <span>{category}</span>
           <Link href={url}>

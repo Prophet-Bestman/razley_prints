@@ -25,7 +25,7 @@ const AboutThree = () => {
                   <a className="thm-btn my-4">{button.label}</a>
                 </Link>
                 <div className="phone-btn">
-                  <i className="fas fa-phone"></i>
+                  <i className="fas fa-phone text-sm"></i>
                   {phone}
                 </div>
               </div>

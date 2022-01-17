@@ -155,6 +155,15 @@ a:active {
   font-weight: bold;
   margin-bottom: 30px;
 }
+
+@media (max-width: 500px) {
+  .sec-title h3 {
+    font-size: 32px;
+  }
+  .sec-title span {
+    font-size: 16px;
+  }
+}
 .sec-title p {
   color: #757575;
   font-size: 20px;
@@ -1405,12 +1414,23 @@ body.active-preloader-ovh {
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+
+.recent-projects .single-recent-project {
+}
+
 .recent-projects .single-recent-project .img-box {
   position: relative;
   overflow: hidden;
   width: 370px;
   height: 395px;
 }
+
+@media (max-width: 760px) {
+  .recent-projects .single-recent-project .img-box {
+    width: 100%;
+  }
+}
+
 .recent-projects .single-recent-project .img-box > img {
   width: 100%;
   height: 100%;
@@ -1848,6 +1868,15 @@ body.active-preloader-ovh {
   font-size: 30px;
   line-height: 50px;
 }
+
+@media (max-width: 500px) {
+  .testi-carousel-wrapper .thm-container .single-testimonials .text-box h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: normal;
+  }
+}
+
 .testi-carousel-wrapper .thm-container .single-testimonials .text-box p {
   margin: 0;
   color: #fec931;
@@ -2162,17 +2191,34 @@ body.active-preloader-ovh {
   font-weight: 500;
   color: #212121;
 }
+
 .service-style-one .service-content .btn-box .phone-btn i {
   font-size: 24px;
   border: 2px solid #2884c6;
   color: #2884c6;
   line-height: 55px;
-  width: 59px;
-  height: 59px;
+  /* width: 59px; */
+  /* height: 59px; */
+  padding: 6px 12px;
   border-radius: 50%;
   text-align: center;
   margin-right: 10px;
 }
+
+@media (max-width: 500px) {
+  .service-style-one .service-content .btn-box .phone-btn {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .service-style-one .service-content .btn-box .phone-btn i {
+    /* height: 0; */
+    line-height: normal;
+    padding: 10px 11px;
+    /* width: 0; */
+    font-size: 16px;
+  }
+}
+
 .service-style-one .service-right-content {
   background: #fff;
   padding: 60px;
@@ -2601,6 +2647,7 @@ body.active-preloader-ovh {
   font-size: 40px;
   margin: 0;
 }
+
 .service-details-cost-calculator .cost-calc-content .cost-calc-form {
   margin-bottom: 20px;
 }
