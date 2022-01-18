@@ -11,12 +11,12 @@ export const NavLinksData = [
   {
     name: "About",
     url: "/about",
-    // url: "/",
+    url: "/",
   },
   {
     name: "Services",
-    url: "/services",
-    // url: "/",
+    // url: "/services",
+    url: "/",
   },
   // {
   //   name: "Pages",
@@ -28,8 +28,8 @@ export const NavLinksData = [
   // },
   {
     name: "Contact",
-    // url: "/",
-    url: "/contact",
+    url: "/",
+    // url: "/contact",
   },
 ];
 
