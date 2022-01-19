@@ -11,7 +11,7 @@ export const NavLinksData = [
   {
     name: "About",
     url: "/about",
-    url: "/",
+    // url: "/",
   },
   {
     name: "Services",
