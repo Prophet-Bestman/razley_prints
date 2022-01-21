@@ -2178,6 +2178,13 @@ body.active-preloader-ovh {
 /**************************
 * 17. services styles
 ***************************/
+
+@media (max-width: 500px) {
+  .single-tab-content .sec-title p {
+    font-size: 16px;
+  }
+}
+
 .service-style-one {
   background: #f5f6fa;
   position: relative;
@@ -2523,6 +2530,12 @@ body.active-preloader-ovh {
   padding-bottom: 50px;
   padding-left: 60px;
   padding-right: 60px;
+}
+@media (max-width: 500px) {
+  .service-style-three .single-service-three .text-box {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 .service-style-three .single-service-three .text-box:before {
   background: #ff4328;
