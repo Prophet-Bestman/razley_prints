@@ -1400,6 +1400,29 @@ body.active-preloader-ovh {
   background: #ff4328;
 }
 
+@media (max-width: 500px) {
+  .footer .footer-widget .title h3 {
+    font-size: 16px;
+  }
+
+  .footer .footer-widget i,
+  .footer .footer-widget a,
+  .footer .footer-widget p {
+    font-size: 13px;
+  }
+
+  .footer-bottom .thm-container .copy-text p {
+    font-size: 11px;
+  }
+
+  .footer-bottom .thm-container .social-box a {
+    font-size: 20px;
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+  }
+}
+
 /**************************
 * 11. recent project styles
 ***************************/
@@ -1419,9 +1442,6 @@ body.active-preloader-ovh {
   transform: scaleY(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-}
-
-.recent-projects .single-recent-project {
 }
 
 .recent-projects .single-recent-project .img-box {
