@@ -40,15 +40,16 @@ const ContactOne = () => {
                     {text !== undefined ? <p>{text}</p> : null}
                     {socials !== undefined ? (
                       <div className="social">
-                        {socials.map(({ icon, url }, index) => {
+                        {/* {socials.map(({ icon, url }, index) => {
                           return (
                             <a
                               key={index}
                               href={url}
+                              target="_blank"
                               className={`${icon} hvr-pulse`}
                             ></a>
                           );
-                        })}
+                        })} */}
                       </div>
                     ) : null}
                   </div>

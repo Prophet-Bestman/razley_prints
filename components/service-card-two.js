@@ -9,20 +9,20 @@ const ServiceCardTwo = ({ data }) => {
         <img src={image} alt={title} />
       </div>
       <div className="text-box hvr-bounce-to-bottom">
-        <Link href={url}>
+        <p href={url}>
           <a>
             <h3>{title}</h3>
           </a>
-        </Link>
-        <div className="meta-info">
+        </p>
+        {/* <div className="meta-info">
           <p>
             {count} cards from <span>${price}</span>
           </p>
-        </div>
+        </div> */}
         <p>{text}</p>
-        <Link href={url}>
+        {/* <Link href={url}>
           <a className="read-more fas fa-angle-right"></a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

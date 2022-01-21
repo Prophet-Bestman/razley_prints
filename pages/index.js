@@ -7,9 +7,6 @@ import RecentProject from "@/components/recent-project";
 import CallToActionTwo from "@/components/call-to-action-two";
 import CallToActionThree from "@/components/call-to-action-three";
 import AboutThree from "@/components/about-three";
-import VideoDesignGuide from "@/components/video-design-guide";
-import TeamOne from "@/components/team-one";
-import FaqFeature from "@/components/faq-feature";
 import TestimonialsOne from "@/components/testimonials-one";
 import ServiceTwo from "@/components/service-two";
 import HeaderOne from "@/components/header-one";
@@ -25,14 +22,10 @@ const Home = () => {
         <AboutTwo />
         <ServiceTwo />
         <TestimonialsOne />
-        {/* <FaqFeature /> */}
         <CallToActionTwo />
-        {/* <TeamOne /> */}
         <AboutThree />
-        {/* <VideoDesignGuide /> */}
         <CallToActionThree />
         <RecentProject />
-        {/* <ClientCarousel /> */}
         <Footer />
       </Layout>
     </MenuContextProvider>

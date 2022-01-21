@@ -41,11 +41,11 @@ const AboutThree = () => {
                     <Col md={6} key={index}>
                       <div className="single-service-one hvr-bounce-to-bottom">
                         <i className={icon}></i>
-                        <Link href={url}>
+                        <p>
                           <a>
                             <h3>{title}</h3>
                           </a>
-                        </Link>
+                        </p>
                       </div>
                     </Col>
                   ))}

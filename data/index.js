@@ -15,8 +15,8 @@ export const NavLinksData = [
   },
   {
     name: "Services",
-    // url: "/services",
-    url: "/",
+    url: "/all-services",
+    // url: "/",
   },
   // {
   //   name: "Pages",
@@ -28,8 +28,8 @@ export const NavLinksData = [
   // },
   {
     name: "Contact",
-    url: "/",
-    // url: "/contact",
+    // url: "/",
+    url: "/contact",
   },
 ];
 
@@ -107,7 +107,7 @@ export const CallToActionData = {
   },
 };
 
-let callToActionTwo1 = "/img/free-sample-1-2.jpg";
+let callToActionTwo1 = "/img/raz/mock14.jpeg";
 
 export const CallToActionTwoData = {
   sectionContent: {
@@ -123,7 +123,7 @@ export const CallToActionTwoData = {
   },
   image: {
     name: callToActionTwo1,
-    caption: "Professional designs \n with added fizz",
+    caption: "Professional printing \n Excellence guaranteed",
   },
 };
 
@@ -341,7 +341,7 @@ export const ServiceTabOneData = [
       title: "T-Shirt Printing",
       subText: "Our services",
       content:
-        "Choose the perfect flyer design, You can’t go wrong. We start at premium and go all the way to extra fancy. There’s \nOriginal single-sided flyers (writeable on one side) that you can send without an envelope, Original double-sided \nflyers (more impactful) and luxe flyers (extra thick and luxurious).",
+        "We combine the best methods with superior fabrics and arts to give  you a quality T-shirt design that help you stand out at all times. \n \n We make it easy to create your own unique custom printed T-shirts utilizing personal images, logos or letterings  for any occasion or special events. From one T-shirt to a bulk of Tees, we are ready to deliver!.",
     },
   },
   {
@@ -361,7 +361,7 @@ export const ServiceTabOneData = [
       title: "Poster Printing",
       subText: "Our services",
       content:
-        "Choose the perfect flyer design, You can’t go wrong. We start at premium and go all the way to extra fancy. There’s \n Original single-sided flyers (writeable on one side) that you can send without an envelope, Original double-sided \n flyers (more impactful) and luxe flyers (extra thick and luxurious).",
+        "Promote your business, showcase exhibitions and entice your customers and audience with our quality printed posters. \n From single pieced prints to multiple stocks of amazing posters, you are guaranteed a high-resolution on colours, designs and prints.",
     },
   },
   {
@@ -371,7 +371,7 @@ export const ServiceTabOneData = [
       title: "Sticker \n  Printing",
       subText: "Our services",
       content:
-        "Choose the perfect flyer design, You can’t go wrong. We start at premium and go all the way to extra fancy. There’s \n Original single-sided flyers (writeable on one side) that you can send without an envelope, Original double-sided \n flyers (more impactful) and luxe flyers (extra thick and luxurious).",
+        "Get your ideas to life and  capture clients attention with our full matching and colourful stickers. \n Explore varieties of quality designs, shapes, applications, textures and options designed to meet your business need and goal. \n We stay with you all through the creative process and wrap it up with amazing prints that help you stay attractive at all times.",
     },
   },
   {
@@ -381,7 +381,7 @@ export const ServiceTabOneData = [
       title: "Postcard Printing",
       subText: "Our services",
       content:
-        "Choose the perfect flyer design, You can’t go wrong. We start at premium and go all the way to extra fancy. There’s \n Original single-sided flyers (writeable on one side) that you can send without an envelope, Original double-sided \n flyers (more impactful) and luxe flyers (extra thick and luxurious).",
+        "Choose the perfect Postcard design, You can’t go wrong. We start at premium and go all the way to extra fancy. There’s \n Original single-sided Postcards (writeable on one side) that you can send without an envelope, Original double-sided \n Postcards (more impactful) and luxe flyers (extra thick and luxurious).",
     },
   },
 ];
@@ -456,24 +456,78 @@ export const FeatureOneData = {
   ],
 };
 
-let serviceImage1 = "/img/service-1-1.jpg";
-let serviceImage2 = "/img/service-1-2.jpg";
-let serviceImage3 = "/img/service-1-3.jpg";
-let serviceImage4 = "/img/service-1-4.jpg";
-let serviceImage5 = "/img/service-1-5.jpg";
-let serviceImage6 = "/img/service-1-6.jpg";
+let serviceImage1 = "/img/raz/mock13.jpeg";
+let serviceImage2 = "/img/raz/brochure.jpg";
+let serviceImage3 = "/img/raz/mock12.jpeg";
+let serviceImage4 = "/img/raz/mock8.jpeg";
+let serviceImage5 = "/img/raz/mock13.jpeg";
+let serviceImage6 = "/img/raz/mock13.jpeg";
+let serviceImage7 = "/img/raz/flyer.jpg";
+let serviceImage8 = "/img/raz/mock13.jpeg";
+let serviceImage9 = "/img/raz/mock13.jpeg";
+let serviceImage10 = "/img/raz/coza.jpg";
+let serviceImage11 = "/img/raz/mock13.jpeg";
+let serviceImage12 = "/img/raz/rollups.jpg";
 
 export const ServiceOneData = [
   {
     image: serviceImage1,
-    title: "Business Cards",
+    title: "ANNUAL REPORTS",
     count: 50,
     price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    text: ". You don't have to worry about wrong colors on your graph, or wrongly printed total budget allocations (that could be some trouble). Your annual reports are made to impress your stakeholders at the next annual meeting",
     url: "/service-details",
   },
   {
     image: serviceImage2,
+    title: "BROCHURES",
+    count: 50,
+    price: 19.99,
+    text: "Our full color print makes your brochures simply irresistible and reduces the barrier of entry of your brand in the minds of your audience.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage3,
+    title: "RECIPE AND MENU CARDS",
+    count: 50,
+    price: 19.99,
+    text: "Our full color print makes your brochures simply irresistible and reduces the barrier of entry of your brand in the minds of your audience.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage4,
+    title: "NEWSLETTERS AND PERIODICALS",
+    count: 50,
+    price: 19.99,
+    text: "No overprint, and all orderly to the letter, your newsletters will look as clean and elegant as your brand needs it to be. ",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage5,
+    title: "BUSINESS CARDS ",
+    count: 50,
+    price: 19.99,
+    text: "Your business card will speak for you when you're not in the room, so we  make sure it's saying the right things. We re-create class and elegance whilst showcasing essential details that your client could consult to reach you: your ideas, our design.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage6,
+    title: "STICKERS AND LABELS",
+    count: 50,
+    price: 19.99,
+    text: "Bring  proper attention to your brand by collaborating your ideas with our designs, color, texture and options to meet your business needs and goals.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage7,
+    title: "FLYERS ",
+    count: 50,
+    price: 19.99,
+    text: "Flyers are a perfect way to get the word out about your business. Let's help you  create an eye-catching business flier that disseminates valuable information while persuading your customers.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage8,
     title: "Postcards",
     count: 50,
     price: 19.99,
@@ -481,131 +535,35 @@ export const ServiceOneData = [
     url: "/service-details",
   },
   {
-    image: serviceImage3,
-    title: "Stickers and Labels",
+    image: serviceImage9,
+    title: "ENVELOPES",
     count: 50,
     price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    text: "We offer a wide variety of envelopes sorted by color, size, style and paper texture to find the best fit for you with no shortage of charm and  professionalism.",
     url: "/service-details",
   },
   {
-    image: serviceImage4,
-    title: "Flyers",
+    image: serviceImage10,
+    title: "PACKAGING",
     count: 50,
     price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    text: "Good packaging sells itself. Your products need to look clear and crisp, and so we print the brightest colors that make sure your products stand out on the shelves.",
     url: "/service-details",
   },
   {
-    image: serviceImage5,
-    title: "Envelopes",
+    image: serviceImage11,
+    title: "CHEQUES",
     count: 50,
     price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    text: "We produce custom printed cheques to ensure cohesive presentation of a bill of exchange. You can upload your design or we create one or customize one of the cheque designs in our collection.",
     url: "/service-details",
   },
   {
-    image: serviceImage6,
-    title: "Greeting Cards",
+    image: serviceImage12,
+    title: "ROLL UPS",
     count: 50,
     price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage1,
-    title: "Business Cards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage2,
-    title: "Postcards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage3,
-    title: "Stickers and Labels",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage4,
-    title: "Flyers",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage5,
-    title: "Envelopes",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage6,
-    title: "Greeting Cards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage1,
-    title: "Business Cards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage2,
-    title: "Postcards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage3,
-    title: "Stickers and Labels",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage4,
-    title: "Flyers",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage5,
-    title: "Envelopes",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage6,
-    title: "Greeting Cards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
+    text: "You'll want to make sure you have a professional, eye-appealing roll-up banners! We could design and print beautiful roll-up banners for your business to allow your audience to interact more with the company's programs.",
     url: "/service-details",
   },
 ];
@@ -906,37 +864,37 @@ export const ContactInfosData = {
   posts: [
     {
       title: "Address",
-      text: "88 New Street, Washington DC \n United States, America",
+      text: "Suite Gf01b UTC Main Building Area 10, \n Garki FCT, Abuja, Nigeria",
     },
     {
       title: "Phone",
-      text: "Local: 222 999 888  \n  Mobile: 000 8888 999",
+      text: "Local: 0703 607 0751  \n  Mobile: 0814 155 9538",
     },
     {
       title: "Email",
-      text: "needhelp@printify.com  \n  inquiry@printify.com",
+      text: "razleyprints.ng@gmail.com",
     },
-    {
-      title: "Follow",
-      socials: [
-        {
-          icon: "fab fa-twitter",
-          url: "#",
-        },
-        {
-          icon: "fab fa-pinterest",
-          url: "#",
-        },
-        {
-          icon: "fab fa-facebook-f",
-          url: "#",
-        },
-        {
-          icon: "fab fa-youtube",
-          url: "#",
-        },
-      ],
-    },
+    // {
+    //   title: "Follow",
+    //   socials: [
+    //     {
+    //       icon: "fab fa-twitter",
+    //       url: "#",
+    //     },
+    //     {
+    //       icon: "fab fa-pinterest",
+    //       url: "#",
+    //     },
+    //     {
+    //       icon: "fab fa-facebook-f",
+    //       url: "#",
+    //     },
+    //     {
+    //       icon: "fab fa-instagram",
+    //       url: "#",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -950,18 +908,15 @@ export const FooterLinksData = {
   links: [
     {
       label: "About",
-      // url: "/about",
-      url: "/",
+      url: "/about",
     },
     {
       label: "Our Services",
-      // url: "/services",
-      url: "/",
+      url: "/all-services",
     },
     {
       label: "Contact",
-      // url: "/contact",
-      url: "/",
+      url: "/contact",
     },
   ],
 };
@@ -1000,7 +955,7 @@ export const FooterContactData = {
     {
       text: `Suite Gf01b UTC Main Building
  Area 10 Garki FCT, Abuja, Nigeria`,
-      url: "",
+      url: "https://goo.gl/maps/2H69fg96jiPBVmkUA",
     },
   ],
 };

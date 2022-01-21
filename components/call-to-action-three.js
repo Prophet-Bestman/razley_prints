@@ -10,7 +10,7 @@ const CallToActionThree = () => {
       <div className="thm-container">
         <div className="row">
           <div className="col-xl-6 col-lg-12">
-            <div className="image-block float-right">
+            <div className="image-block ">
               <img src={image.name} alt="Awesome Image" />
               <div className="content-block">
                 <h3>{image.caption}</h3>

@@ -48,29 +48,6 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            {/* <Col lg={3}>
-              <div className="footer-widget post-widget services">
-                <div className="title">
-                  <h3>{FooterPostsData.title}</h3>
-                </div>
-                <div className="post-widget">
-                  {FooterPostsData.posts.map(({ date, title, url }, index) => {
-                    return (
-                      <div className="single-post-widget" key={index}>
-                        <Link href={url}>
-                          <a className="date">{date}</a>
-                        </Link>
-                        <h3 className="post-title">
-                          <Link href={url}>
-                            <a>{title}</a>
-                          </Link>
-                        </h3>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </Col> */}
             <Col lg={3}>
               <div className="footer-widget contact-widget">
                 <div className="title">
@@ -79,7 +56,9 @@ const Footer = () => {
                 {FooterContactData.infos.map(({ text, url }, index) => {
                   return (
                     <p key={index}>
-                      <a href={url}>{text}</a>
+                      <a target="_blank" href={url}>
+                        {text}
+                      </a>
                     </p>
                   );
                 })}
@@ -102,6 +81,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href={url}
+                  target="_blank"
                   className={`${icon} bg-white text-red hvr-pulse`}
                 ></a>
               );

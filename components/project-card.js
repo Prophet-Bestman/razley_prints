@@ -16,11 +16,11 @@ const ProjectCard = ({ data }) => {
         </Link> */}
         <div className="inner hvr-bounce-to-bottom">
           <span>{category}</span>
-          <Link href={url}>
+          <p>
             <a>
               <h3>{title}</h3>
             </a>
-          </Link>
+          </p>
         </div>
       </div>
     </div>

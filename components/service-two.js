@@ -16,7 +16,7 @@ const ServiceTwo = () => {
           <div className="col-lg-6 col-md-12">
             <div className="single-what-we-do">
               <div className="img-box">
-                <img src={serviceTwo1} alt="" />
+                <img src="/img/raz/mission.jpg" alt="" />
               </div>
               <div className="text-box hvr-bounce-to-bottom">
                 <a href="/service-details">
@@ -27,7 +27,7 @@ const ServiceTwo = () => {
                   available in the majority have suffer alteration in some.
                 </p>
                 <a
-                  href="/service-details"
+                  href="/all-services"
                   className="read-more fas fa-angle-right"
                 ></a>
               </div>
@@ -38,7 +38,7 @@ const ServiceTwo = () => {
               <div className="col-sm-6">
                 <div className="single-what-we-do-one hvr-bounce-to-bottom">
                   <i className="printify-icon-paper-drill"></i>
-                  <a href="/service-details">
+                  <a href="/all-services">
                     <h3>Digital Printing</h3>
                   </a>
                   <p>
@@ -46,7 +46,7 @@ const ServiceTwo = () => {
                     available in the majority have suffer alteration in some.
                   </p>
                   <a
-                    href="/service-details"
+                    href="/all-services"
                     className="read-more fas fa-angle-right"
                   ></a>
                 </div>
@@ -62,7 +62,7 @@ const ServiceTwo = () => {
                     available in the majority have suffer alteration in some.
                   </p>
                   <a
-                    href="/service-details"
+                    href="/all-services"
                     className="read-more fas fa-angle-right"
                   ></a>
                 </div>
