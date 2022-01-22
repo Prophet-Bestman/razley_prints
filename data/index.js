@@ -238,21 +238,21 @@ export const FeatureCarouselData = [
   },
 ];
 
-let team1 = "/img/raz/raz.jpeg";
+let team1 = "/img/raz/Razley.jpg";
 
 export const TeamOneData = {
   sectionContent: {
     title: "Meet the CEO",
     subText: "The leadership",
     content:
-      "Its known that any ship of great impact is captained by a man of capability. \n This is the case with Razley Prints. Meet the exeptional person of Mr Razley",
+      "Its known that any ship of great impact is captained by a man of capability. \n This is the case with Razley Prints. Meet the exeptional person of Mr. Zubair Abdulrazak.",
   },
   CEO_details: {
-    name: "Mr Razley",
+    name: "Zubair Abdulrazak",
     designation: "Chief Executive officer",
     image: team1,
     content:
-      "Mr Razley is the founde of Razley Prints Ltd. \n \n Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim ipsum, quidem repellendus accusamus assumenda perspiciatis amet, veritatis laborum quam vero incidunt magni consequatur. Eius ab tempore ratione at, officiis accusantium!.",
+      "Mr. Zubair Abdulrazak is the Chief Executive Officer and Founder of Razley Prints Ltd, a company that offers high quality printing service. He's an individual who is passionate about changing the narrative of print design and  thus sufficiently equips himself with every necessary skill and tool to adequately represent and foster this course. \n As a highly innovative and creative individual, he's committed to  improving and staying true to print craftsmanship and  employs the best methods to deliver effective and efficient  services to customers with a central focus on quality. \n Integrity, Service, Discipline and Honesty are the basic essence of his identity and core values which he deploys in relation with both clients and non-clients.",
   },
 };
 
@@ -462,11 +462,11 @@ let serviceImage3 = "/img/raz/mock12.jpeg";
 let serviceImage4 = "/img/raz/mock8.jpeg";
 let serviceImage5 = "/img/raz/mock13.jpeg";
 let serviceImage6 = "/img/raz/mock13.jpeg";
-let serviceImage7 = "/img/raz/flyer.jpg";
+let serviceImage7 = "/img/raz/mayorkun.jpg";
 let serviceImage8 = "/img/raz/mock13.jpeg";
-let serviceImage9 = "/img/raz/mock13.jpeg";
-let serviceImage10 = "/img/raz/coza.jpg";
-let serviceImage11 = "/img/raz/mock13.jpeg";
+let serviceImage9 = "/img/raz/cups.jpg";
+let serviceImage10 = "/img/raz/package.jpg";
+let serviceImage11 = "/img/raz/backdrop.jpg";
 let serviceImage12 = "/img/raz/rollups.jpg";
 
 export const ServiceOneData = [
@@ -475,7 +475,7 @@ export const ServiceOneData = [
     title: "ANNUAL REPORTS",
     count: 50,
     price: 19.99,
-    text: ". You don't have to worry about wrong colors on your graph, or wrongly printed total budget allocations (that could be some trouble). Your annual reports are made to impress your stakeholders at the next annual meeting",
+    text: "You don't have to worry about wrong colors on your graph, or wrongly printed total budget allocations (that could be some trouble). Your annual reports are made to impress your stakeholders at the next annual meeting",
     url: "/service-details",
   },
   {
@@ -491,7 +491,7 @@ export const ServiceOneData = [
     title: "RECIPE AND MENU CARDS",
     count: 50,
     price: 19.99,
-    text: "Our full color print makes your brochures simply irresistible and reduces the barrier of entry of your brand in the minds of your audience.",
+    text: "Your menu cards can't be 'Just basic'.  Let it directly speak the quality you deliver. Your clients and customers will definately anticipate the taste of your meals after seeing the standard of your menu cards",
     url: "/service-details",
   },
   {
@@ -502,22 +502,7 @@ export const ServiceOneData = [
     text: "No overprint, and all orderly to the letter, your newsletters will look as clean and elegant as your brand needs it to be. ",
     url: "/service-details",
   },
-  {
-    image: serviceImage5,
-    title: "BUSINESS CARDS ",
-    count: 50,
-    price: 19.99,
-    text: "Your business card will speak for you when you're not in the room, so we  make sure it's saying the right things. We re-create class and elegance whilst showcasing essential details that your client could consult to reach you: your ideas, our design.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage6,
-    title: "STICKERS AND LABELS",
-    count: 50,
-    price: 19.99,
-    text: "Bring  proper attention to your brand by collaborating your ideas with our designs, color, texture and options to meet your business needs and goals.",
-    url: "/service-details",
-  },
+
   {
     image: serviceImage7,
     title: "FLYERS ",
@@ -526,36 +511,30 @@ export const ServiceOneData = [
     text: "Flyers are a perfect way to get the word out about your business. Let's help you  create an eye-catching business flier that disseminates valuable information while persuading your customers.",
     url: "/service-details",
   },
-  {
-    image: serviceImage8,
-    title: "Postcards",
-    count: 50,
-    price: 19.99,
-    text: "Cut through the networking clutter and say hello with Razley Prints Business Cards.",
-    url: "/service-details",
-  },
+
   {
     image: serviceImage9,
-    title: "ENVELOPES",
-    count: 50,
-    price: 19.99,
-    text: "We offer a wide variety of envelopes sorted by color, size, style and paper texture to find the best fit for you with no shortage of charm and  professionalism.",
-    url: "/service-details",
-  },
-  {
-    image: serviceImage10,
-    title: "PACKAGING",
+    title: "MUGS",
     count: 50,
     price: 19.99,
     text: "Good packaging sells itself. Your products need to look clear and crisp, and so we print the brightest colors that make sure your products stand out on the shelves.",
     url: "/service-details",
   },
+
   {
-    image: serviceImage11,
-    title: "CHEQUES",
+    image: serviceImage10,
+    title: "PACKAGING",
     count: 50,
     price: 19.99,
-    text: "We produce custom printed cheques to ensure cohesive presentation of a bill of exchange. You can upload your design or we create one or customize one of the cheque designs in our collection.",
+    text: "Let's create attractive ideas too compelling for client's to resist. We deeply care about every detail and how these details can positively impact your company.",
+    url: "/service-details",
+  },
+  {
+    image: serviceImage11,
+    title: "BACK DROP",
+    count: 50,
+    price: 19.99,
+    text: "Good packaging sells itself. Your products need to look clear and crisp, and so we apply world class standard to producing a back drop that will command attention as well as pass its message.",
     url: "/service-details",
   },
   {
@@ -571,9 +550,9 @@ export const ServiceOneData = [
 let projectImage1 = "/img/raz/coza.jpg";
 let projectImage2 = "/img/raz/mayorkun.jpg";
 let projectImage3 = "/img/raz/hair_flip.jpg";
-let projectImage4 = "/img/project-1-4.jpg";
-let projectImage5 = "/img/project-1-5.jpg";
-let projectImage6 = "/img/project-1-6.jpg";
+let projectImage4 = "/img/raz/package.jpg";
+let projectImage5 = "/img/raz/Abubakar.jpg";
+let projectImage6 = "/img/raz/Marishcal.jpg";
 export const ProjectOneData = [
   {
     image: projectImage1,
@@ -602,13 +581,13 @@ export const ProjectOneData = [
   {
     image: projectImage5,
     category: "printing",
-    title: "Book Copy",
+    title: "Abubakar Salami San",
     url: "/project-details",
   },
   {
     image: projectImage6,
     category: "printing",
-    title: "C Creative Mess",
+    title: "Marishcal Development Company Ltd",
     url: "/project-details",
   },
 ];
@@ -874,27 +853,6 @@ export const ContactInfosData = {
       title: "Email",
       text: "razleyprints.ng@gmail.com",
     },
-    // {
-    //   title: "Follow",
-    //   socials: [
-    //     {
-    //       icon: "fab fa-twitter",
-    //       url: "#",
-    //     },
-    //     {
-    //       icon: "fab fa-pinterest",
-    //       url: "#",
-    //     },
-    //     {
-    //       icon: "fab fa-facebook-f",
-    //       url: "#",
-    //     },
-    //     {
-    //       icon: "fab fa-instagram",
-    //       url: "#",
-    //     },
-    //   ],
-    // },
   ],
 };
 

@@ -1884,12 +1884,18 @@ body.active-preloader-ovh {
 
 @media (max-width: 500px) {
   .testi-carousel-wrapper .thm-container .single-testimonials .img-box {
-    width: 150px;
-    height: 180px;
+    width: 90px;
+    height: 90px;
     position: absolute;
-    top: 60px;
     left: 0;
     z-index: 9;
+  }
+
+  .testi-carousel-wrapper .thm-container .single-testimonials .img-box img {
+    border-radius: 100px;
+  }
+  .testi-carousel-wrapper .thm-container .single-testimonials .text-box {
+    padding-top: 0px !important;
   }
 }
 
@@ -2135,7 +2141,7 @@ body.active-preloader-ovh {
 
 .team-section .single-team-carousel .inner .img-box img {
   width: 380px;
-  height: 300px;
+  /* height: 300px; */
   object-fit: cover;
   object-position: top;
 }

@@ -19,13 +19,9 @@ const ServiceTwo = () => {
                 <img src="/img/raz/mission.jpg" alt="" />
               </div>
               <div className="text-box hvr-bounce-to-bottom">
-                <a href="/service-details">
+                <a href="/all-service">
                   <h3>3D Printing</h3>
                 </a>
-                <p>
-                  There are many people variation of passages of lorem Ipsum
-                  available in the majority have suffer alteration in some.
-                </p>
                 <a
                   href="/all-services"
                   className="read-more fas fa-angle-right"
@@ -41,10 +37,6 @@ const ServiceTwo = () => {
                   <a href="/all-services">
                     <h3>Digital Printing</h3>
                   </a>
-                  <p>
-                    There are many people variation of passages of lorem Ipsum
-                    available in the majority have suffer alteration in some.
-                  </p>
                   <a
                     href="/all-services"
                     className="read-more fas fa-angle-right"
@@ -57,10 +49,7 @@ const ServiceTwo = () => {
                   <a href="/service-details">
                     <h3>Offset Printing</h3>
                   </a>
-                  <p>
-                    There are many people variation of passages of lorem Ipsum
-                    available in the majority have suffer alteration in some.
-                  </p>
+
                   <a
                     href="/all-services"
                     className="read-more fas fa-angle-right"

@@ -15,7 +15,6 @@ const ServiceOne = () => {
             </Col>
           ))}
         </Row>
-        {/* <PostPaginations /> */}
       </div>
     </section>
   );

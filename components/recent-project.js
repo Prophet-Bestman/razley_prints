@@ -17,7 +17,7 @@ const RecentProject = () => {
           </p>
         </div>
         <Row>
-          {ProjectOneData.slice(0, 3).map((post, index) => (
+          {ProjectOneData.map((post, index) => (
             <Col key={index} md={6} lg={4}>
               <ProjectCard data={post} />
             </Col>
